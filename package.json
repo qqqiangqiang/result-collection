@@ -20,6 +20,7 @@
   "devDependencies": {
     "commitizen": "^4.2.3",
     "cz-lerna-changelog": "^2.0.3",
+    "husky": "^6.0.0",
     "lerna": "^4.0.0"
   }
 }
