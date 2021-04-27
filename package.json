@@ -4,9 +4,17 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "commit": "git-cz"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test && npm run foo"
     }
   },
   "devDependencies": {
