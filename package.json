@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && npm run foo"
+      "pre-commit": "test"
     }
   },
   "devDependencies": {
