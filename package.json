@@ -12,11 +12,6 @@
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "test"
-    }
-  },
   "devDependencies": {
     "commitizen": "^4.2.3",
     "cz-lerna-changelog": "^2.0.3",
