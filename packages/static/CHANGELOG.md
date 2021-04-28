@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/qqqiangqiang/result-collection/compare/@dongzhiqiang/static@1.2.0...@dongzhiqiang/static@1.3.0) (2021-04-28)
+
+
+### Features
+
+* **app.js:** 增加模板编译方法 ([6b68897](https://github.com/qqqiangqiang/result-collection/commit/6b68897d18d8d3e16f45072a9b963af20c892383))
+
+
+
+
+
 # [1.2.0](https://github.com/qqqiangqiang/result-collection/compare/@dongzhiqiang/static@1.1.0...@dongzhiqiang/static@1.2.0) (2021-04-28)
 
 
