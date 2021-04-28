@@ -1,6 +1,6 @@
 {
   "name": "@dongzhiqiang/static",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "可以在任意目录下启动一个静态文件服务器，并且把当前目录作为静态文件的根目录 -- dzq-server -d 指定静态文件根目录 -p 指定端口号 -o 指定监听的主机",
   "main": "index.js",
   "scripts": {
