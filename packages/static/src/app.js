@@ -14,7 +14,7 @@ let crypto = require('crypto');
 
 process.env.DEBUG = 'static:app'
 
-// 模板编译，得到一个渲染的方法，然后传入实际数据就可以得到渲染后的html
+// 通过模板编译，得到一个渲染的方法，然后传入实际数据就可以得到渲染后的html
 function list() {
   let tmp = fs.readFileSync(path.resolve(__dirname, 'template', 'list.html'), 'utf8');
   return handlebars.compile(tmp);
