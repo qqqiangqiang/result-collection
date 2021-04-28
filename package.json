@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "lerna publish --conventional-commits --skip-git --skip-npm"
   },
   "config": {
     "commitizen": {
