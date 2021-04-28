@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/qqqiangqiang/result-collection/compare/@dongzhiqiang/static@1.1.0...@dongzhiqiang/static@1.2.0) (2021-04-28)
+
+
+### Features
+
+* **app.js:** 增加相关注释说明 ([06f87ba](https://github.com/qqqiangqiang/result-collection/commit/06f87ba20bcd1ad5bb17584124207a314ddff216))
+
+
+
+
+
 # 1.1.0 (2021-04-28)
 
 
