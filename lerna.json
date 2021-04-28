@@ -4,10 +4,10 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"]
+      "ignoreChanges": [".npmrc", "*.md"]
     },
     "version": {
-      "message": "chore(release): publish %s",
+      "message": "chore(release): publish",
       "conventionalCommits": true
     }
   },
