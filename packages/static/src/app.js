@@ -14,7 +14,7 @@ let crypto = require('crypto');
 
 process.env.DEBUG = 'static:app'
 
-// 编译模板，得到一个渲染的方法，然后传入实际数据就可以得到渲染后的html
+// 模板编译，得到一个渲染的方法，然后传入实际数据就可以得到渲染后的html
 function list() {
   let tmp = fs.readFileSync(path.resolve(__dirname, 'template', 'list.html'), 'utf8');
   return handlebars.compile(tmp);
@@ -22,7 +22,6 @@ function list() {
 // 这是一个在控制台输出的模块，名称有特点有两部分组成，第一部分一般是项目名，第二部分是模块名
 // 每个debug实例都有一个名字，是否控制台打印取决于环境变量中DEBUG的值是否等于static:app
 let debug = require('debug')('static:app');
-// console.log(process.env);
 // 创建一个服务器
 /**
  * 1、显示目录下面的文件列表和返回内容
